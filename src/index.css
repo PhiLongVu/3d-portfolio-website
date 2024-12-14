@@ -22,6 +22,9 @@ body:has(.card[data-color="green"]:hover) {
 }
 
 @layer utilities {
+  .text-black-500 {
+    color: #444444; /* Custom black shade */
+  }
   .shadow-card {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
